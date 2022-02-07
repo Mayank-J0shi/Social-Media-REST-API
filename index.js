@@ -8,7 +8,6 @@ const userRoute = require("./routes/users");
 const postRoute = require("./routes/posts");
 const authRoute = require("./routes/auth");
 
-//"mongodb+srv://mayank:mayank@social.dompo.mongodb.net/social?retryWrites=true&w=majority",
 dotenv.config();
 mongoose.connect(process.env.MONGO_URL, {
   useNewUrlParser: true,
